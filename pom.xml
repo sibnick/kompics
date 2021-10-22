@@ -186,13 +186,13 @@ by putting together protocols programmed as event-driven components.</descriptio
 		</plugins>
 	</build>
 	<!-- Spacer //-->
-	<distributionManagement>
-		<repository>
-			<id>bintray-kompics-Maven</id>
-			<name>kompics-Maven</name>
-			<url>https://api.bintray.com/maven/kompics/Maven/kompics/;publish=1</url>
-		</repository>
-	</distributionManagement>
+<!--	<distributionManagement>-->
+<!--		<repository>-->
+<!--			<id>bintray-kompics-Maven</id>-->
+<!--			<name>kompics-Maven</name>-->
+<!--			<url>https://api.bintray.com/maven/kompics/Maven/kompics/;publish=1</url>-->
+<!--		</repository>-->
+<!--	</distributionManagement>-->
 	<!-- Spacer //-->
 	<reporting>
 		<plugins>

@@ -54,12 +54,12 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
             <version>1.2</version>
             <scope>compile</scope>
         </dependency>
-        <dependency>
-            <groupId>com.larskroll</groupId>
-            <artifactId>common-utils</artifactId>
-            <version>1.4.1</version>
-            <scope>compile</scope>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.larskroll</groupId>-->
+<!--            <artifactId>common-utils</artifactId>-->
+<!--            <version>1.4.1</version>-->
+<!--            <scope>compile</scope>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>org.ujmp</groupId>
             <artifactId>ujmp-core</artifactId>
@@ -102,28 +102,28 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
                     <target>${java.compiler.version}</target>
                     <debug>true</debug>
                     <optimize>true</optimize>
-                    <showDeprecations>true</showDeprecations>
+<!--                    <showDeprecations>true</showDeprecations>-->
                 </configuration>
             </plugin>
         </plugins>
     </build>
-    <repositories>
-        <repository>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-            <id>bintray-kompics-Maven</id>
-            <name>bintray</name>
-            <url>https://dl.bintray.com/kompics/Maven</url>
-        </repository>
-        <!-- this is where the common-utils is from //-->
-        <repository>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-            <id>bintray-lkrollcom-maven</id>
-            <name>bintray</name>
-            <url>https://dl.bintray.com/lkrollcom/maven</url>
-        </repository>
-    </repositories>
+<!--    <repositories>-->
+<!--        <repository>-->
+<!--            <snapshots>-->
+<!--                <enabled>false</enabled>-->
+<!--            </snapshots>-->
+<!--            <id>bintray-kompics-Maven</id>-->
+<!--            <name>bintray</name>-->
+<!--            <url>https://dl.bintray.com/kompics/Maven</url>-->
+<!--        </repository>-->
+<!--        &lt;!&ndash; this is where the common-utils is from //&ndash;&gt;-->
+<!--        <repository>-->
+<!--            <snapshots>-->
+<!--                <enabled>false</enabled>-->
+<!--            </snapshots>-->
+<!--            <id>bintray-lkrollcom-maven</id>-->
+<!--            <name>bintray</name>-->
+<!--            <url>https://dl.bintray.com/lkrollcom/maven</url>-->
+<!--        </repository>-->
+<!--    </repositories>-->
 </project>
