@@ -1,11 +1,8 @@
 package se.sics.kompics.network.data;
 
-//todo
 public class ExponentialMovingAverage {
-
-    private double alpha;
+    private final double alpha;
     private double mean;
-    private int n;
 
     public ExponentialMovingAverage(double alpha) {
         this.alpha = alpha;
@@ -16,5 +13,6 @@ public class ExponentialMovingAverage {
     }
 
     public void addValue(double delTD) {
+        mean = mean * (1 - alpha) + alpha * delTD;
     }
 }
